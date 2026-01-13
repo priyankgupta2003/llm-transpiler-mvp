@@ -1,0 +1,20 @@
+[project]
+name = "llm-transpiler-mvp"
+version = "0.1.0"
+description = "AI-powered Java to Python transpiler using LLMs with structured reasoning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=25.1.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-openai>=0.3.17",
+    "langgraph>=0.4.5",
+    "loguru>=0.7.3",
+    "openai>=1.78.1",
+    "python-dotenv>=1.1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
